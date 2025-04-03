@@ -1,5 +1,5 @@
 # Maqueta
-- Scrum Master: Walter Carrasco
+Integrantes del Grupo:
 
 | Nombre  | Rol   |
 |---|---|
