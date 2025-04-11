@@ -4,6 +4,6 @@ Integrantes del Grupo:
 | Nombre  | Rol   |
 |---|---|
 | Walter Carrasco  |Scrum Master   |
-| Dylan Vidal | Diseño  |
-| Luna Troncoso | Desarrollo |
+| Noah Miura | Diseño  |
+| Walter Carrasco | Desarrollo |
 | Juanita Monzón | Testing |
