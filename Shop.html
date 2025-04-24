@@ -1,57 +1,71 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/vars.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="css\stylesShop.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
   <title>Document</title>
 </head>
 <body>
-  <div class="landing-page">
-    <div class="feedback">Feedback</div>
-    <div class="cards">
-      <div class="customer-quote">
-        <div class="a-terrific-piece-of-praise">“A terrific piece of praise”</div>
-        <div class="avatar">
-          <img class="avatar2" src="img/avatar1.png" />
-          <div class="frame-2610301">
-            <div class="name">Name</div>
-            <div class="description">Description</div>
-          </div>
+  <div class="shop">
+    <div
+      class="header-with-image"
+      style="
+        background: url(header-with-image0.png) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <div class="dimmer"></div>
+      <div class="copy">
+        <div class="page-title">
+          <div class="_404-sleep-not-found">404SleepNotFound</div>
+          <div class="descripcion">Descripcion</div>
+        </div>
+        <div class="button">
+          <div class="button2">Button</div>
         </div>
       </div>
-      <div class="customer-quote2">
-        <div class="a-fantastic-bit-of-feedback">
-          “A fantastic bit of feedback”
+      <div class="navigation">
+        <div class="items">
+          <div class="servicios">servicios</div>
+          <img class="generic-avatar" src="img/generic-avatar0.svg" />
         </div>
-        <div class="avatar">
-          <img class="avatar2" src="img/avatar3.png" />
-          <div class="frame-2610301">
-            <div class="name">Name</div>
-            <div class="description">Description</div>
-          </div>
-        </div>
-      </div>
-      <div class="customer-quote2">
-        <div class="a-genuinely-glowing-review">“A genuinely glowing review”</div>
-        <div class="avatar">
-          <img class="avatar2" src="img/avatar5.png" />
-          <div class="frame-2610301">
-            <div class="name">Name</div>
-            <div class="description">Description</div>
-          </div>
-        </div>
+        <div class="maqueta">Maqueta</div>
       </div>
     </div>
     <div class="navigation-footer">
-      <div class="items">
-        <div class="topic">Topic</div>
-        <div class="page">Page</div>
-        <div class="page">Page</div>
-        <div class="page">Page</div>
-      </div>
       <div class="items2">
         <div class="topic">Topic</div>
         <div class="page">Page</div>
@@ -59,6 +73,12 @@
         <div class="page">Page</div>
       </div>
       <div class="items3">
+        <div class="topic">Topic</div>
+        <div class="page">Page</div>
+        <div class="page">Page</div>
+        <div class="page">Page</div>
+      </div>
+      <div class="items4">
         <div class="topic">Topic</div>
         <div class="page">Page</div>
         <div class="page">Page</div>
@@ -80,47 +100,6 @@
         </div>
       </div>
       <div class="divider"></div>
-    </div>
-    <div class="navigation">
-      <div class="items4">
-        <div class="servicios">servicios</div>
-        <img class="generic-avatar" src="img/generic-avatar0.svg" />
-      </div>
-      <div class="maqueta">Maqueta</div>
-    </div>
-    <div class="copy">
-      <div class="page-title">
-        <div class="_404-sleep-not-found">404SleepNotFound</div>
-        <div
-          class="lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-facilis-sunt-quo-laboriosam-ipsum-natus-reiciendis-voluptas-officia-ducimus-obcaecati-non-optio-quis-nihil-ex-dolore-suscipit-placeat-dolores-quae-doloremque"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sunt
-          quo laboriosam ipsum natus reiciendis voluptas officia, ducimus
-          obcaecati non optio quis, nihil ex dolore suscipit! Placeat dolores quae
-          doloremque.
-        </div>
-      </div>
-    </div>
-    <div class="productos">Productos</div>
-    <div class="carousel">
-      <img
-        class="item-1"
-        style="
-          background: url(item-10.png) center;
-          background-size: cover;
-          background-repeat: no-repeat;
-        "
-        src="img/item-10.png"
-      />
-      <img
-        class="item-last"
-        style="
-          background: url(item-last0.png) center;
-          background-size: cover;
-          background-repeat: no-repeat;
-        "
-        src="img/item-last0.png"
-      />
     </div>
     <div class="medios-de-pago">Medios de pago</div>
     <div class="building-blocks-primary-tabs-icon-only">
@@ -234,7 +213,7 @@
     <div class="building-blocks-content">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -280,7 +259,7 @@
     <div class="building-blocks-content2">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -326,7 +305,7 @@
     <div class="building-blocks-content3">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -338,7 +317,7 @@
         <div class="icon-button">
           <div class="container">
             <div class="state-layer2">
-              <img class="icon19" src="img/icon18.svg" />
+              <img class="icon19" src="iimg/con18.svg" />
             </div>
           </div>
         </div>
@@ -372,7 +351,7 @@
     <div class="building-blocks-content4">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -418,7 +397,7 @@
     <div class="building-blocks-content5">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -464,7 +443,7 @@
     <div class="building-blocks-content6">
       <div class="header">
         <div class="content">
-          <div class="avatar3">
+          <div class="avatar">
             <div class="background"></div>
             <div class="initial">A</div>
           </div>
@@ -507,62 +486,283 @@
         </div>
       </div>
     </div>
-    <div class="button">
-      <div class="state-layer3">
-        <div class="label-text">Ver Más</div>
+    <div class="building-blocks-content7">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon23" src="img/icon22.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media13.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="building-blocks-content8">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon24" src="img/icon23.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media15.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="building-blocks-content9">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon25" src="img/icon24.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media17.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="building-blocks-content10">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon26" src="img/icon25.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media19.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="building-blocks-content11">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon27" src="img/icon26.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media21.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="building-blocks-content12">
+      <div class="header">
+        <div class="content">
+          <div class="avatar">
+            <div class="background"></div>
+            <div class="initial">A</div>
+          </div>
+          <div class="text">
+            <div class="header2">Header</div>
+            <div class="subhead">Subhead</div>
+          </div>
+        </div>
+        <div class="icon-button">
+          <div class="container">
+            <div class="state-layer2">
+              <img class="icon28" src="img/icon27.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media">
+        <img class="media2" src="img/media23.png" />
+      </div>
+      <div class="text-content">
+        <div class="headline">
+          <div class="title">Title</div>
+          <div class="subhead2">Subtitle</div>
+        </div>
+        <div class="supporting-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor
+        </div>
+        <div class="actions">
+          <div class="secondary-action">
+            <div class="state-layer3">
+              <div class="label-text">Enabled</div>
+            </div>
+          </div>
+          <div class="primary-action">
+            <div class="state-layer3">
+              <div class="label-text2">Enabled</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-    <header>
-        <h1>Streaming Freaks</h1>
-    </header>
-    <main>
-        <section id="hero">
-            <div class="hero-content">
-                <h2>Encuentra las mejores ofertas y promociones para tus plataformas de streaming favoritas</h2>
-                <p>¡Ahorra en tus suscripciones y disfruta del mejor contenido!</p>
-                <a href="#ofertas" class="btn btn-primary">Ver Ofertas</a>
-            </div>
-        </section>
-        <section id="products-card">
-            <div class="container">
-                <h2>Ofertas Destacadas</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/streaming1.jpg" alt="Oferta 1" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Netflix</h5>
-                                <p class="card-text">Disfruta de un mes gratis en Netflix. ¡No te lo pierdas!</p>
-                                <a href="#" class="btn btn-primary">Ver Oferta</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/streaming2.jpg" alt="Oferta 2" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Spotify</h5>
-                                <p class="card-text">Obtén 3 meses de Spotify Premium por solo $0.99.</p>
-                                <a href="#" class="btn btn-primary">Ver Oferta</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="img/streaming3.jpg" alt="Oferta 3" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Disney+</h5>
-                                <p class="card-text">Prueba Disney+ gratis durante 7 días. ¡Regístrate ahora!</p>
-                                <a href="#" class="btn btn-primary">Ver Oferta</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-    </main>
   
 </body>
 </html>
